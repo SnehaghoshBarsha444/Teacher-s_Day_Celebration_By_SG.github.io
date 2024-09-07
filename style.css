@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing : border-box;
+    list-style : none;
+    scroll-behavior: smooth ;
+}
+
+
+::-webkit-scrollbar{
+ height: .1rem; width: .5rem;
+
+}
+
+::-webkit-scrollbar-track{
+ background-color: #67ccff;
+
+}
+
+::-webkit-slider-thumb{
+     background-color: #194eb9;
+      border-radius: 5rem;
+
+}
+
+body{
+     font-family: "Playwrite CU", cursive; 
+     background: #1d002c; 
+     color:#fff;
+      overflow-x: hidden;
+
+}
+
+header{ 
+    padding: 25px 10%; 
+    position: absolute;
+     left: 0; 
+     top:0 ; 
+     display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      width: 100%;
+       z-index: 1001;
+
+}
+
+.logo{
+     font-size: 3rem; align-self: start; color: #12f7ff; text-decoration: none; font-weight: 600;
+
+}
+
+ul.navlist{ display: flex; align-items: center;
+
+}
+
+.navlist li{ margin-left: 1rem; }
+
+.navlist li a{ color: #fff; text-decoration: none; font-weight: 500; font-size: 1rem; padding: 5px 12px ; border: 2px solid #12f7ff; border-radius: 25px ; transition: all .3s ease;
+
+}
+
+.navlist li a:hover, .navlist li a.active { box-shadow: 0 0 1rem #12f7ff; background: #12f7ff; color: #1d002c;
+
+}
+
+section{ min-height: 100vh ;
+
+}
+
+.parallax-home{ position:relative; display: flex; justify-content: center; align-items: center; z-index: 1000; }
+
+.parallax-home img{ position: absolute; object-fit: cover; pointer-events: none;
+
+}
+
+.parallax-home #text{ position: absolute; font-size: 1.5rem; color: rgb(209, 191, 199); text-shadow: 0 10px 4px rgba(0,0,0,0.85) ; top: 80%; left: 3%; }
+
+.parallax-home img#moon,.about img#desert-moon{ mix-blend-mode: screen;
+
+}
+
+.parallax-home img#water{ position: absolute; top: -13%; } .about{ position: absolute;
+
+} .about img{ position: absolute; z-index: 1000; object-fit: cover; pointer-events: none;
+
+}
+
+.about img.about-waterfall{ position: absolute; top: -13%; object-fit: contain; }
+
+.about img.about-sky{ position: absolute; top: -7%; }
+
+.about img.about-rock{ position: absolute; top: -11.7%; }
+
+.about img.about-water{ position: absolute; top:-15% ;
+
+}
+
+.about img.about-man{ position: absolute; top: -7%; }
+
+.about img.about-grass{ position: absolute; top: -10%; }
+
+.about .info-box{ position: absolute; top: 0%; left: 10%; width: 50%; z-index: 1000; }
+
+.about .info-box h2{ font-size: 2.5rem ; }
+
+.btn{ align-items: center; background:#12f7ff; color:#1d002c; text-decoration: none; border-radius: 25px; padding: 0.5rem 1rem; transition: all .3s ease; border: 2px solid #12f7ff; font-weight: 200;
+
+}
+
+.btn:hover{ box-shadow: 0 0 1rem #12f7ff; background: #1d002c; color:#12f7ff ; }
+
+#progress{
+     position: fixed; 
+     background-color: #194eb9;
+      z-index: 1000;
+       bottom: 70px; 
+       right:10px; 
+       width: 50px;
+        height: 50px;
+        display: grid; 
+        place-items: center;
+        border-radius: 50%;
+         color: #1d002c; 
+        cursor: pointer;
+
+}
+
+#progress-value{ display:block ;
+height:calc(100% - 12px) ; width: calc(100% - 12px); background: #fff; border-radius: 50%; display: grid; place-items: center; font-size: 30px;
+
+}
+
+

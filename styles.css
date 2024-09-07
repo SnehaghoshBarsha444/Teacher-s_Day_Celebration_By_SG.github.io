@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Playwrite CU", cursive;
+    background: #1d002c;
+    color: #fff;
+    overflow-x: hidden;
+    font-size: 1.5vw;
+    line-height: 1.2;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 25px 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1001;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 15px 5%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 10px 2%;
+    }
+  }
+  
+  /* Navigation styles */
+  .navlist {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navlist {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navlist {
+      flex-direction: column;
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Parallax styles */
+  .parallax-home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .parallax-home {
+      height: 80vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .parallax-home {
+      height: 60vh;
+    }
+  }
+  
+  .parallax-home img {
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* About styles */
+  .about {
+    position: absolute;
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      position: relative;
+    }
+  }
+  
+  .about img {
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Progress bar styles */
+  #progress {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #1d002c;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    #progress {
+      bottom: 40px;
+      right: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #progress {
+      bottom: 20px;
+      right: 2px;
+    }
+  }

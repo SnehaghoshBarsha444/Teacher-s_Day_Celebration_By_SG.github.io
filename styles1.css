@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+  }
+  
+  section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  /* Responsive design improvements */
+  section span {
+    width: calc(6.25vw - 2px);
+    height: calc(6.25vw - 2px);
+    transition: 1.5s;
+  }
+  
+  @media (max-width: 1200px) {
+    section span {
+      width: calc(10vw - 2px);
+      height: calc(10vw - 2px);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    section span {
+      width: calc(15vw - 2px);
+      height: calc(15vw - 2px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    section span {
+      width: calc(20vw - 2px);
+      height: calc(20vw - 2px);
+    }
+  }
+  
+  .signin {
+    position: absolute;
+    width: 80%; /* adjust width to 80% of parent container */
+    background: #222;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+  }
+  
+  .signin .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .signin .content h2 {
+    font-size: 2em;
+    color: #0f0;
+    text-transform: uppercase;
+  }
+  
+  .signin .content .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .signin .content .form .inputBox {
+    position: relative;
+    width: 100%;
+  }
+  
+  .signin .content .form .inputBox input {
+    position: relative;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+  }
+  
+  /* Add more media queries and styles as needed */
