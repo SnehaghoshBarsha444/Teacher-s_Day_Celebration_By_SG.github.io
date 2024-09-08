@@ -15,7 +15,29 @@ loginBtn.addEventListener('click', (e) => {
     }else if (username === 'Surya_Sir_2018') {
             window.location.href = 'surya.html'; // redirect to Surya's page
     }else if (username === 'Soumyadeep') {
-            window.location.href = 'soumyadeep.html'; // redirect to Trina's page
+            window.location.href = 'soumyadeep.html'; // redirect to Ron's page
+    }else if (username === 'Indranil_Sir_YCH') {
+        window.location.href = 'indranil.html'; // redirect to Indranil's page
+    } else if (username === 'Soudip_Sir_YCH') {
+        window.location.href = 'soudip.html'; // redirect to Soudip's page
+    } else if (username === 'Anamika_Mam_2022') {
+        window.location.href = 'anamika.html'; // redirect to Anamika's page
+    } else if (username === 'Soma_Di_2016') {
+        window.location.href = 'soma.html'; // redirect to Soma's page
+    } else if (username === 'Aparna_Di_2016') {
+        window.location.href = 'aparna.html'; // redirect to Aparna's page
+    } else if (username === 'Debarati_Di_2016') {
+        window.location.href = 'debarati.html'; // redirect to DRC's page
+    } else if (username === 'Ishita_Di_2017') {
+        window.location.href = 'ishita.html'; // redirect to IG's page
+    } else if (username === 'Arpita_Di_2016') {
+        window.location.href = 'arpita.html'; // redirect to Arpita's page
+    } else if (username === 'Rabin_Sir') {
+        window.location.href = 'rabin.html'; // redirect to Rabin's page
+    } else if (username === 'Ishu_Bestie') {
+        window.location.href = 'ishu.html'; // redirect to IJ's page
+    } else if (username === 'Riya_SML&CF') {
+        window.location.href = 'rio.html'; // redirect to Rio's page
     } else {
         alert('Invalid username'); // display error message for other usernames
     }
