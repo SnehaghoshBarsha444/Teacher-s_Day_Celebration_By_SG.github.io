@@ -44,6 +44,20 @@ loginBtn.addEventListener('click', (e) => {
         window.location.href = 'hod.html'; // redirect to HOD's page
     }else if (username === 'Amit_Sir') {
         window.location.href = 'amit.html'; // redirect to Amit's page
+    }else if (username === 'Rubi_Di_2016') {
+        window.location.href = 'rubi.html'; // redirect to Rubi's page
+    }else if (username === 'Anindita_Di_2016') {
+        window.location.href = 'anindita.html'; // redirect to Amit's page
+    }else if (username === 'Bula_Di_2016') {
+        window.location.href = 'bula.html'; // redirect to Amit's page
+    }else if (username === 'Gita_Di_2018') {
+        window.location.href = 'gita.html'; // redirect to Amit's page
+    }else if (username === 'Nandita_Di_2019') {
+        window.location.href = 'nandita.html'; // redirect to Amit's page
+    }else if (username === 'Nila_Di_2017') {
+        window.location.href = 'nila.html'; // redirect to Amit's page
+    }else if (username === 'Rupa_Di_2016') {
+        window.location.href = 'rupa.html'; // redirect to Amit's page
     } else {
         alert('Invalid username'); // display error message for other usernames
     }
