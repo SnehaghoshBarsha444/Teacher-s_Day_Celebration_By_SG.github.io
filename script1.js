@@ -9,7 +9,7 @@ loginBtn.addEventListener('click', (e) => {
     if (username === 'Srabani_Mam_2022') {
         window.location.href = 'srabani.html'; // redirect to Srabani's page
     } else if (username === 'English_Mam_2018') {
-        window.location.href = 'english.html'; // redirect to English's page
+        window.location.href = 'english1.html'; // redirect to English's page
     }else if (username === 'Trina_Mam') {
             window.location.href = 'trina.html'; // redirect to Trina's page
     }else if (username === 'Surya_Sir_2018') {
@@ -47,17 +47,17 @@ loginBtn.addEventListener('click', (e) => {
     }else if (username === 'Rubi_Di_2016') {
         window.location.href = 'rubi.html'; // redirect to Rubi's page
     }else if (username === 'Anindita_Di_2016') {
-        window.location.href = 'anindita.html'; // redirect to Amit's page
+        window.location.href = 'anindita.html'; // redirect to ASS's page
     }else if (username === 'Bula_Di_2016') {
-        window.location.href = 'bula.html'; // redirect to Amit's page
+        window.location.href = 'bula.html'; // redirect to Bula's page
     }else if (username === 'Gita_Di_2018') {
-        window.location.href = 'gita.html'; // redirect to Amit's page
+        window.location.href = 'gita.html'; // redirect to GD's page
     }else if (username === 'Nandita_Di_2019') {
-        window.location.href = 'nandita.html'; // redirect to Amit's page
+        window.location.href = 'nandita.html'; // redirect to NP's page
     }else if (username === 'Nila_Di_2017') {
-        window.location.href = 'nila.html'; // redirect to Amit's page
+        window.location.href = 'nila.html'; // redirect to Nila's page
     }else if (username === 'Rupa_Di_2016') {
-        window.location.href = 'rupa.html'; // redirect to Amit's page
+        window.location.href = 'rupa.html'; // redirect to RM's page
     } else {
         alert('Invalid username'); // display error message for other usernames
     }
