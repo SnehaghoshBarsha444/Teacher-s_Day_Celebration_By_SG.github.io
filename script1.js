@@ -40,6 +40,8 @@ loginBtn.addEventListener('click', (e) => {
         window.location.href = 'rio.html'; // redirect to Rio's page
     } else if (username === 'Swarup_Ghosh(Kakai_DON)') {
         window.location.href = 'chottu.html'; // redirect to Chottu Kakai's page
+    }else if (username === 'H.O.D_Mam') {
+        window.location.href = 'hod.html'; // redirect to HOD's page
     } else {
         alert('Invalid username'); // display error message for other usernames
     }
